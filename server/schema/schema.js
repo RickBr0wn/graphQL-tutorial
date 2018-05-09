@@ -135,3 +135,5 @@ const Mutation = new GraphQLObjectType({
 })
 
 module.exports = new GraphQLSchema({ query: RootQuery, mutation: Mutation })
+
+// PAUSED @ 2:06:30
