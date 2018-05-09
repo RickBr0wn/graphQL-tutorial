@@ -7,8 +7,8 @@ const app = express()
 const PORT = 4000
 
 // Connect to mLab database
-mongoose.connect('mongodb://Rick:Harry123@ds219040.mlab.com:19040/graphql-tut')
-mongoose.connection.once('open', )
+mongoose.connect('mongodb://rick:Harry123@ds219040.mlab.com:19040/graphql-tut')
+mongoose.connection.once('open', () => console.log("CONNECTED TO DATABASE"))
 
 app.use('/graphql', graphqlHTTP({
   schema,
