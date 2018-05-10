@@ -3,6 +3,8 @@
     "graph",
     "mlab",
     "qlid",
+    "queries",
+    "refetch",
     "rothfuss"
   ],
   "git.ignoreLimitWarning": true
