@@ -4,5 +4,6 @@
     "mlab",
     "qlid",
     "rothfuss"
-  ]
+  ],
+  "git.ignoreLimitWarning": true
 }
