@@ -15,7 +15,7 @@ class BookList extends React.Component{
   displayBooks(){
     let data = this.props.data
     if(data.loading){
-      return (<div>loading Books..</div>)
+      return (<div>Loading Books..</div>)
     }else{
       return data.books.map(book => <li key={book.id}>{book.name}</li>)
     }
